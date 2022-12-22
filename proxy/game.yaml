@@ -1,3 +1,4 @@
+proxies:
 - name: id-game.bypass.id
   network: ws
   password: 94a33370-7fd0-11ed-be2d-1577c1651679
@@ -11,3 +12,16 @@
     headers:
       Host: id-game.bypass.id
     path: /howdy
+- name: sg-game.1server.co
+    server: 172.67.199.34
+    port: 443
+    type: trojan
+    password: 7c0ad650-81c6-11ed-99ac-1577c1651679
+    skip-cert-verify: true
+    sni: sg-game.1server.co
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-game.1server.co
+    udp: true
