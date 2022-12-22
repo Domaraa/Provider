@@ -1,0 +1,40 @@
+proxies:
+- name: id-game.bypass.id
+  network: ws
+  password: 94a33370-7fd0-11ed-be2d-1577c1651679
+  port: 443
+  server: 172.67.199.34
+  skip-cert-verify: true
+  sni: id-game.bypass.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: id-game.bypass.id
+    path: /howdy
+- name: id-atha.bypass.id
+  network: ws
+  password: c88237d0-7fd0-11ed-85ad-1577c1651679
+  port: 443
+  server: 172.67.199.34
+  skip-cert-verify: true
+  sni: id-atha.bypass.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: id-atha.bypass.id
+    path: /howdy
+- name: id-biznet1.bypass.id
+  network: ws
+  password: f7870080-7fd0-11ed-b881-1577c1651679
+  port: 443
+  server: 172.67.199.34
+  skip-cert-verify: true
+  sni: id-biznet1.bypass.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: id-biznet1.bypass.id
+    path: /howdy
