@@ -1,69 +1,7 @@
 proxies:
-- name: sg-v2ray-ws.bypass.id
-    server: 172.67.199.34
-    port: 80
-    type: vmess
-    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg-v2ray-ws.bypass.id
-    network: ws
-    ws-opts:
-      path: /fastssh/pre_5490975217/Septiyan234/
-      headers:
-        Host: sg-v2ray-ws.bypass.id
-    udp: true
-  - name: sg-atha2.bypass.id
-    server: 172.67.199.34
-    port: 443
-    type: trojan
-    password: 2f79a040-81c6-11ed-80fe-1577c1651679
-    skip-cert-verify: true
-    sni: sg-atha2.bypass.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-atha2.bypass.id
-    udp: true
-  - name: sg-trojan.1server.co
-    server: 172.67.199.34
-    port: 443
-    type: trojan
-    password: 4ba36ee0-81c6-11ed-a3c6-1577c1651679
-    skip-cert-verify: true
-    sni: sg-trojan.1server.co
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-trojan.1server.co
-    udp: true
-  - name: sg-tovh.1server.co
-    server: 172.67.199.34
-    port: 443
-    type: trojan
-    password: 5ddc3e10-81c6-11ed-98f1-1577c1651679
-    skip-cert-verify: true
-    sni: sg-ovh.1server.co
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-tovh.1server.co
-    udp: true
-  - name: sg-contabo1.1server.co
-    server: 172.67.199.34
-    port: 443
-    type: trojan
-    password: 6c6c1f40-81c6-11ed-9242-1577c1651679
-    skip-cert-verify: true
-    sni: sg-contabo1.1server.co
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-contabo1.1server.co
-    udp: true
+  - {name: 172.67.199.34, server: 172.67.199.34, port: 443, type: trojan, password: 3d095760-8557-11ed-85ce-1577c1651679, skip-cert-verify: true, sni: sg-atha2.bypass.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-atha2.bypass.id}}, udp: true}
+  - {name: 172.67.199.34 2, server: 172.67.199.34, port: 443, type: trojan, password: 66911b90-8557-11ed-ba66-1577c1651679, skip-cert-verify: true, sni: sg-contabo1.1server.co, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-contabo1.1server.co}}, udp: true}
+  - {name: 172.67.199.34 3, server: 172.67.199.34, port: 443, type: trojan, password: 72b21530-8557-11ed-8d9a-1577c1651679, skip-cert-verify: true, sni: sg-game.1server.co, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-game.1server.co}}, udp: true}
+  - {name: 172.67.199.34 4, server: 172.67.199.34, port: 443, type: trojan, password: 7f39db70-8557-11ed-b91b-1577c1651679, skip-cert-verify: true, sni: sg-ovh.1server.co, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-ovh.1server.co}}, udp: true}
+  - {name: 172.67.199.34 5, server: 172.67.199.34, port: 443, type: trojan, password: 9b6c57b0-8557-11ed-88fe-1577c1651679, skip-cert-verify: true, sni: sg-trojan.1server.co, network: ws, ws-opts: {path: /howdy, headers: {Host: sg-trojan.1server.co}}, udp: true}
+  - {name: 172.67.199.34 6, server: 172.67.199.34, port: 443, type: trojan, password: a7af2770-8557-11ed-8f78-1577c1651679, skip-cert-verify: true, sni: sggs.1server.co, network: ws, ws-opts: {path: /howdy, headers: {Host: sggs.1server.co}}, udp: true}
